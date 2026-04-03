@@ -22,7 +22,7 @@ npm run build
 npm run preview
 ```
 
-All commands run the Astro CLI. Development server starts on `http://localhost:3000` by default.
+All commands run the Astro CLI. Development server starts on `http://localhost:4321` by default.
 
 ## Astro Best Practices
 
