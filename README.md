@@ -2,12 +2,33 @@
 
 # 🎮 Mona Mayhem
 
-**VS Code & GitHub Copilot CLI Workshop** — Build a GitHub Contribution Battle Arena
+## ⚡ The Ultimate GitHub Copilot Hands-On Workshop
 
-A workshop template for building a retro arcade-themed website with Astro that compares GitHub contribution graphs of two users. This is the **starting point** — you'll build the app step by step using GitHub Copilot.
+> **Turn your dev skills up to 11** with a retro arcade experience that teaches you **everything** about GitHub Copilot — from Chat Mode to Agent Mode to the blazing-fast CLI.
+
+Build a **GitHub Contribution Battle Arena** — a retro arcade-themed app that pits your GitHub contributions against your friends'. This is your launchpad for mastering modern AI-assisted development.
 
 ![Mona Mayhem Screenshot](https://github.com/user-attachments/assets/5eca79e2-cb9f-4e93-aa0d-23666ebde3b7)
-*What you'll build by the end of the workshop*
+*Level up your Copilot skills by building this 👆*
+
+### 🎯 What You'll Get
+
+By the end of this workshop, you'll have:
+
+- **✨ A deployed retro arcade web app** that fetches and displays real GitHub contribution graphs
+- **🚀 Mastery of GitHub Copilot workflows** — Chat, Plan Mode, Agent Mode, and the CLI
+- **🎨 Design-first development skills** — planning before coding
+- **⚙️ Full-stack Astro experience** — API routes, server-side rendering, state management
+- **🤝 Collaboration techniques** — parallel work, code reviews, and quality gates
+- **🧠 AI-fluent mindset** — how to think about problems in an AI-assisted workflow
+
+### 🔥 Why This Workshop?
+
+- **Real-world stack** — Astro, TypeScript, Node.js (not a toy project)
+- **Two learning paths** — choose VS Code or CLI, based on your style
+- **Hands-on from start to finish** — you're building, not just watching
+- **GitHub Copilot focused** — each step teaches a specific Copilot feature
+- **~1 hour** — perfect for a lunch break or afternoon session
 
 ## 📚 Workshop
 
