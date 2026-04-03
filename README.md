@@ -30,59 +30,122 @@ By the end of this workshop, you'll have:
 - **GitHub Copilot focused** — each step teaches a specific Copilot feature
 - **~1 hour** — perfect for a lunch break or afternoon session
 
-## 📚 Workshop
+## 📚 Workshop Roadmap
 
-The workshop supports two tracks — follow the one that matches your preferred workflow:
+### Pick Your Path
 
-- **VS Code track** — Chat, Plan Mode, Agent Mode, background agents, and editor-native review loops
-- **CLI track** — `copilot`, `@file` context, `/plan`, autonomous edits, `/fleet`, `/delegate`, and `/review`
+Choose **one** of two workshop tracks — they teach the same skills, just through different interfaces:
 
-| Part | Title | Copilot Focus |
-|------|-------|---------------|
-| [00](workshop/00-overview.md) | Overview | Track selection and learning goals |
-| [01](workshop/01-setup.md) | Setup & Context Engineering | Instructions, permissions, and environment setup |
-| [02](workshop/02-plan-and-scaffold.md) | Plan & Scaffold | Planning the API and page architecture |
-| [03](workshop/03-agent-mode.md) | Build the Game | Agentic implementation and iteration |
-| [04](workshop/04-design-vibes.md) | Design-First Theming | Visual design planning and implementation |
-| [05](workshop/05-polish.md) | Polish & Parallel Work | Parallelism, reviews, and quality passes |
-| [06](workshop/06-bonus.md) | Bonus & Extensions | Open-ended feature ideas and extra Copilot experiments |
+| Track | Style | When to Choose |
+|-------|-------|---|
+| **[VS Code](workshop/00-overview.md)** 💻 | Chat, Plan Mode, Agent Mode, background agents, visual reviews | You live in your editor. You like visual feedback. |
+| **[GitHub Copilot CLI](workshop/00-overview.md)** 🖥️ | `copilot`, `/plan`, autonomous edits, `/fleet`, `/delegate` | You ❤️ the terminal. You want max speed. |
 
-## 🚀 Quick Start
+### 6 Steps to Mastery
 
-1. **Create your own repo first** by either:
-   - clicking **Use this template** to create a new repo, or
-   - forking this repository.
-2. Choose your workshop path:
-   - **VS Code:** clone your repo and open it in VS Code.
-   - **GitHub Copilot CLI:** clone your repo locally, install `copilot`, and work from your terminal.
-3. Follow the [workshop guide](workshop/00-overview.md)
+| # | Topic | What You'll Do | Time |
+|---|-------|---|---|
+| **[00](workshop/00-overview.md)** | Overview | Pick your track & set goals | 2 min |
+| **[01](workshop/01-setup.md)** | Setup | Configure Copilot & clone the repo | 5 min |
+| **[02](workshop/02-plan-and-scaffold.md)** | Planning & Architecture | Use `/plan` and scaffold your API | 10 min |
+| **[03](workshop/03-agent-mode.md)** | Build the Game | Let Agent Mode write the bulk code | 15 min |
+| **[04](workshop/04-design-vibes.md)** | Design First | Plan + build the arcade UI/theme | 15 min |
+| **[05](workshop/05-polish.md)** | Polish & Collab | Parallel edits, reviews, quality gates | 10 min |
+| **[06](workshop/06-bonus.md)** | Bonus Ideas | (Optional) Advanced Copilot experiments | 15+ min |
 
-## Prerequisites
+**Total:** ~1 hour (plus optional bonus)
 
-### Shared
+## 🚀 Get Started in 3 Minutes
 
-- GitHub Copilot (Pro, Business, or Enterprise)
-- Git
-- Node.js
+### 1️⃣ Fork or Create Your Repo
 
-### VS Code track
+- Click **"Use this template"** at the top of this repo, **or**
+- Fork this repository to your GitHub account.
 
-- VS Code v1.107+
-- GitHub Copilot extension signed in
+> 💡 **Why?** You'll be adding code and pushing commits. Fork = your sandbox.
 
-### CLI track
+### 2️⃣ Clone & Open
 
-- GitHub Copilot CLI (`copilot`)
-- Node.js 22+ if you plan to install the CLI via `npm install -g @github/copilot`
-- Or Homebrew / WinGet if you prefer a native package manager install
+```bash
+git clone https://github.com/YOUR-USERNAME/my-mona-mayhem.git
+cd my-mona-mayhem
+```
 
-## Technology Stack
+**VS Code Users:**
+```bash
+code .
+```
 
-- **Framework**: [Astro](https://astro.build/) v5
-- **Runtime**: Node.js with [@astrojs/node](https://docs.astro.build/en/guides/integrations-guide/node/) adapter
-- **Font**: Press Start 2P (retro gaming font)
-- **API**: GitHub's contribution graph API
+**CLI Users:**
+Just stay in the terminal 🎯
 
-## License
+### 3️⃣ Jump Into [Workshop: Step 00](workshop/00-overview.md)
 
-MIT
+Pick your track and start building! 🎮
+
+---
+
+## ✅ Before You Begin (Checklist)
+
+### Required for Everyone
+
+- [ ] GitHub Copilot subscription (Pro, Business, or Enterprise)
+- [ ] Git installed and configured
+- [ ] Node.js installed (v18+)
+- [ ] Your favorite terminal
+
+### VS Code Track
+
+- [ ] VS Code v1.107+
+- [ ] GitHub Copilot extension installed and signed in
+- [ ] (Optional) GitHub Copilot Chat installed
+
+### CLI Track
+
+- [ ] GitHub Copilot CLI installed (`copilot`) and authenticated
+- [ ] Node.js 22+ (if installing CLI via npm)
+- [ ] Comfortable with slash commands
+
+## 🛠️ Tech Stack (What You're Building With)
+
+| Component | Tool | Why? |
+|-----------|------|------|
+| **Framework** | [Astro](https://astro.build/) v5 | Fast, flexible, API-first web framework |
+| **Runtime** | Node.js + [@astrojs/node](https://docs.astro.build/en/guides/integrations-guide/node/) | Full-stack capabilities, easy deployment |
+| **Language** | TypeScript | Type safety + AI-friendly code |
+| **Styling** | CSS (retro vibes!) | Nostalgic arcade aesthetic |
+| **Font** | Press Start 2P | Authentic 8-bit gaming feel |
+| **Data Source** | GitHub's Contribution API | Real data = real results 📊 |
+
+---
+
+## 💬 Questions? Issues?
+
+- Check the [workshop guide](workshop/00-overview.md) — it covers common setups
+- Open an [issue](../../issues) on GitHub
+- Review the bonus section for extra Copilot techniques
+
+---
+
+## 🎓 Not Just a Workshop — A Mindset Shift
+
+This isn't about memorizing commands. It's about learning to **think in an AI-assisted world**:
+
+- ✅ **Plan before you code** — let Copilot help you design
+- ✅ **Iterate with feedback loops** — review, ask Copilot, improve
+- ✅ **Collaborate smarter** — use Agent Mode and parallel work
+- ✅ **Ship faster** — delegation and automation reduce friction
+
+---
+
+## 📝 License
+
+MIT — use this workshop template freely.
+
+---
+
+## 🚀 Ready to Level Up?
+
+**[→ Start Workshop: Step 00](workshop/00-overview.md)**
+
+Pick your track, create your fork, and let's build Mona Mayhem together! 🎮✨
